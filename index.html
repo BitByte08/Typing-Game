@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header class="head">
+        <h1>Typing Game</h1>
+        <div class="menu">
+            <button type="button" class="menu_btn" id="korean_btn" value="korean">한글</button>
+            <div></div>
+            <button type="button" class="menu_btn" id="english_btn" value="english">영어</button>
+        </div>
+    </header>
+    <main>
+        <div id="game">
+            <h1 class="q" value="Start">Start!</h1>
+            <p id="prompt"></p>
+            <span class="time"></span>
+            <span class="score"></span>
+            <input type="text" id="answer" onkeypress="return getEnter(event)">
+        </div>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

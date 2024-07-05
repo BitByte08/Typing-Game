@@ -1,0 +1,51 @@
+html,body{
+    font-family: "Yeon Sung", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    min-width: 100vh;
+    min-height: 100vh;
+    
+}
+.head{
+    background-color: #FFADAD;
+    width: 100%;
+    top: -5px;
+    left: 0px;
+    position : fixed;
+    height: 150px;
+    padding-top: 5px;
+}
+body{
+    padding-top: 100px;
+}
+.menu{
+    width: 60%;
+    display: grid;
+    grid-template-columns: 0.3fr 0.4fr 0.3fr;
+    margin: auto;
+}
+.menu > button{
+    border: none;
+    padding: 10px 50px;
+    font-size: 1em;
+    border-radius: 10px;
+}
+.menu > #korean_btn{
+    background-color: #FFD6A5;
+}
+.menu > #english_btn{
+    background-color: #FDFFB6;
+}
+.menu > button:hover{
+    box-shadow:1px 1px 1px 1px #555555;
+}
+#game > h1{
+    font-weight: lighter;
+    font-size: 5em;
+    color: #555555;
+}
+
+#game{
+    height: 80vh;
+}
