@@ -90,14 +90,24 @@ function isPlayingGame() {
 
 function scoreCale(){
     var res = (score*10)+(currentTime*2);
-    if(Handi) res*=0.5;
-    if(Hide) res*=2;
-    if(Low_t) res*=3;
+    if(Handi){
+        console.log('a');
+        res=res*0.5;
+    }
+    if(Hide){
+        console.log('a');
+        res=res*2;
+    }
+    if(Low_t){
+        console.log('a');
+        res=res*3;
+    }
+    return res;
 }
 
 function endGame(){
     isPlaying=false;
-    var res = (score*10)+(currentTime*2);
+    var res = scoreCale();
     
     wordDisplay.innerText = "Restart?\n"+"Score : "+res;
     remainingTime();
