@@ -9,11 +9,6 @@
 <body>
     <header class="head">
         <h1>Typing Game</h1>
-        <div class="menu">
-            <button type="button" class="menu_btn" id="korean_btn" value="korean">한글</button>
-            <div></div>
-            <button type="button" class="menu_btn" id="english_btn" value="english">영어</button>
-        </div>
     </header>
     <main>
         <div id="game">
@@ -21,7 +16,7 @@
             <p id="prompt"></p>
             <span class="time"></span>
             <span class="score"></span>
-            <input type="text" id="answer" onkeypress="return getEnter(event)">
+            <input type="text" id="answer">
         </div>
     </main>
     <script src="index.js"></script>
