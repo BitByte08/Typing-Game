@@ -8,14 +8,22 @@
 </head>
 <body>
     <header class="head">
-        <h1>Typing Game</h1>
+        <p>Typing Game</p>
     </header>
     <main>
         <div id="game">
             <h1 class="q" value="Start">Start!</h1>
             <p id="prompt"></p>
-            <span class="time"></span>
-            <span class="score"></span>
+            <p>time : <span class="time">0</span></p>
+            <p>score : <span class="score">0</span></p>
+            <hr>
+            <div id="opt">
+                <h3>mode</h3>
+                <input type="checkbox" id="Hide">Hide(x2)
+                <input type="checkbox" id="Low_t">Low time(x3)
+                <input type="checkbox" id="Handi">Handicap(x0.5)<br>
+                <hr>
+            </div>
             <input type="text" id="answer">
         </div>
     </main>

@@ -13,9 +13,15 @@ html,body{
     top: -5px;
     left: 0px;
     position : fixed;
-    height: 90px;
+    height: 120px;
     padding-top: 5px;
     border-bottom:1px solid black;
+    font-weight: lighter;
+    font-size: 5em;
+    color: black;
+}
+.head > p{
+    margin: auto;
 }
 body{
     padding-top: 90px;
